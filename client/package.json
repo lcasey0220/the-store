@@ -1,0 +1,32 @@
+{
+    "name": "mern",
+    "version": "0.1.0",
+    "private": true,
+    "proxy": "http://localhost:3001/",
+    "dependencies": {
+      "axios": "^0.17.1",
+      "morgan": "^1.9.0",
+      "prop-types": "^15.6.0",
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0",
+      "react-dropzone": "^4.2.8",
+      "react-geolocated": "^2.3.0",
+      "react-google-maps": "^9.4.5",
+      "react-https-redirect": "^1.0.10",
+      "react-router": "^4.2.0",
+      "react-router-dom": "^4.2.2",
+      "react-scripts": "1.0.14",
+      "react-share": "^2.0.0",
+      "react-strap": "0.0.1",
+      "react-tap-event-plugin": "^3.0.2",
+      "react-transition-group": "^1.2.1",
+      "reactstrap": "^4.8.0",
+      "superagent": "^3.8.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }

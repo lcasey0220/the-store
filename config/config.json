@@ -1,0 +1,6 @@
+{
+    "db": {
+        "uri":"mongodb://localhost:27017/the-shop"
+    },
+    "jwtSecret": "This is the shop's secret."
+}

@@ -1,0 +1,45 @@
+{
+  "name": "the-store",
+  "version": "1.0.0",
+  "description": "Boilerplate Store",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  },
+  "author": "Will Cresson and Laura Casey",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.2",
+    "mongoose-geojson-schema": "^2.1.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reactstrap": "^4.8.0",
+    "uuid": "^3.2.1",
+    "validator": "^9.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcasey0220/OurBoilerProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lcasey0220/OurBoilerProject/issues"
+  },
+  "homepage": "https://github.com/lcasey0220/OurBoilerProject#readme"
+}
